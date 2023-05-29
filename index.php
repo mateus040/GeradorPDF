@@ -26,5 +26,5 @@ $dompdf->render();
 header('Content-type: application/pdf');
 echo $dompdf->output();
 
-/* Função Download
-$dompdf->stream('documento.pdf'); */
+//Função Download
+//$dompdf->stream('documento.pdf');
